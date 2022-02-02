@@ -19,6 +19,6 @@ steps:
     location: 'Central US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/DBNMAV/Jan2022/main/CreateWebApp/azuredeploy.json'
-    overrideParameters: '-projectName marc land pipeline'
+    overrideParameters: '-projectName marcland'
     deploymentMode: 'Incremental'
     deploymentName: 'Marc Pipline deployment'
