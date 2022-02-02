@@ -22,4 +22,4 @@ steps:
     csmFileLink: 'https://raw.githubusercontent.com/DBNMAV/Jan2022/main/CreateWebApp/azuredeploy.json'
     overrideParameters: '-projectName marcland'
     deploymentMode: 'Incremental'
-    deploymentName: 'Marc Pipline deployment'
+    deploymentName: 'marcdeployment'
