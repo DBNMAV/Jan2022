@@ -13,6 +13,7 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'marclandpipeline'
     subscriptionId: '7e820774-5f7f-49b7-8f6a-4f32427eac83'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'ZAMarcLand-RG'
